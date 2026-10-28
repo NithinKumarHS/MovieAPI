@@ -1,0 +1,73 @@
+# ==============================
+# .NET / ASP.NET Core
+# ==============================
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+out/
+
+# ==============================
+# Visual Studio
+# ==============================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.ide
+
+# ==============================
+# Visual Studio Code
+# ==============================
+.vscode/
+
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+secrets.json
+secrets.*.json
+appsettings.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.Local.json
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+logs/
+Log/
+[Tt]emp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+
+# ==============================
+# NuGet packages and local caches
+# ==============================
+*.nupkg
+*.snupkg
+.nuget/
+
+
+# ==============================
+# Local databases and backups
+# ==============================
+*.mdf
+*.ldf
+*.bak
+*.bacpac
